@@ -16,6 +16,12 @@ should probably proofread and complete it, then remove this comment. -->
 
 # RoBERTa-PEFT-ForSequenceClassification
 
+## Introduction
+
+The project involved using Lightweight Parameter-Efficient Fine-Tuning (PEFT) with the LoRA technique to perform a sequence classification task. The RoBERTa model was fine-tuned on the sms-spam-classification task. The evaluation was conducted using the evaluate method with the HuggingFace Trainer, ensuring efficient and targeted fine-tuning for spam sms classification while maintaining model performance with minimal computational resources.
+
+Created by @Amirhossein Nazeri
+
 This model is a fine-tuned version of [FacebookAI/roberta-base](https://huggingface.co/FacebookAI/roberta-base) on `spam_not_spam` dataset.
 It achieves the following results on the evaluation set: \
 *- Loss: 0.0414* \
